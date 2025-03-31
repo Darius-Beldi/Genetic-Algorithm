@@ -1,33 +1,6 @@
 from functions import *
 from chromosome import *
 
-# #MAIN
-# already_in = input("Do you want to add new values? Y/N")
-# if(already_in == "Y"):
-#     population_size = int(input("Population size: "))
-#     domain_start = int(input("Domain start: "))
-#     domain_end = int(input("Domain end: "))
-#     a = int(input("a: "))
-#     b = int(input("b: "))
-#     c = int(input("c: "))
-#     precision = int(input("Precision: "))
-#     crossover_probability = int(input("Crossover probability: "))
-#     mutation_probability = int(input("Mutation probability: "))
-#     generation_number = int(input("Generation number: "))
-#     output_file = input("Output file: ")
-# else:
-#     population_size = 20
-#     domain_start = -1
-#     domain_end = 2
-#     a = -1
-#     b = 1
-#     c = 2
-#     precision = 6
-#     crossover_probability = 25
-#     mutation_probability = 1
-#     generation_number = 50
-#     output_file = "Evolutie.txt"
-
 def start(population_size,
     domain_start,
     domain_end,
@@ -159,6 +132,7 @@ def start(population_size,
         if generation == 0 :
             print_population(next_population)
 
+        print( [chromosometemp.fitness for chromosometemp in next_population] )
         print("Average fitness for generation: " + str(generation)
               +" is: " + str(round(sum([chromosometemp.fitness for chromosometemp in next_population]) / len(next_population), precision))
               + " and the max fitness is: " + str(max_fitness), file = file_output)

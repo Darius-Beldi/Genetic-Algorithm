@@ -56,15 +56,19 @@ def mutation_for_all_chromosomes(_population, _mutation_probability, _a, _b, _c,
 
     return _population
 
+
 def bits_to_float(bits):
 
-    if len(bits) != 32:
+    if len(bits) < 32:
         bits = bits.zfill(32)
+    elif len(bits) > 32:
+        bits = bits[-32:]
 
     bytes_data = bytearray()
-    for i in range(0, len(bits), 8):
+    for i in range(0, 32, 8):
         byte = bits[i:i + 8]
         bytes_data.append(int(byte, 2))
+
 
     return struct.unpack('>f', bytes_data)[0]
 

@@ -1,112 +1,100 @@
 import tkinter as tk
+from tkinter import ttk, scrolledtext
 import main
 
-root = tk.Tk()
 
-root.geometry("1024x1024")
+def create_gui():
+    root = tk.Tk()
+    root.title("Genetic Algorithm Optimizer")
+    root.geometry("1200x800")
+    root.configure(padx=20, pady=20, bg="#f2d7ce")
 
-population_size_var = tk.IntVar()
-domain_start_var = tk.IntVar()
-domain_end_var = tk.IntVar()
-a_var = tk.IntVar()
-b_var = tk.IntVar()
-c_var = tk.IntVar()
-precision_var = tk.IntVar()
-crossover_probability_var = tk.IntVar()
-mutation_probability_var = tk.IntVar()
-generation_number_var = tk.IntVar()
+    #default variables, as in the example from the assignment
+    population_size_var = tk.IntVar(value=20)
+    domain_start_var = tk.IntVar(value=-1)
+    domain_end_var = tk.IntVar(value=2)
+    a_var = tk.IntVar(value=-1)
+    b_var = tk.IntVar(value=1)
+    c_var = tk.IntVar(value=2)
+    precision_var = tk.IntVar(value=6)
+    crossover_probability_var = tk.IntVar(value=25)
+    mutation_probability_var = tk.IntVar(value=1)
+    generation_number_var = tk.IntVar(value=50)
 
+    result_var = tk.StringVar(value="Results will appear here")
 
-def submit():
-    population_size = population_size_var
-    domain_start = domain_start_var
-    domain_end = domain_end_var
-    a = a_var
-    b = b_var
-    c = c_var
-    precision = precision_var
-    crossover_probability = crossover_probability_var
-    mutation_probability = mutation_probability_var
-    generation_number = generation_number_var
+    def submit():
+        #input the values
+        population_size = population_size_var.get()
+        domain_start = domain_start_var.get()
+        domain_end = domain_end_var.get()
+        a = a_var.get()
+        b = b_var.get()
+        c = c_var.get()
+        precision = precision_var.get()
+        crossover_probability = crossover_probability_var.get()
+        mutation_probability = mutation_probability_var.get()
+        generation_number = generation_number_var.get()
 
-    max_value = tk.Label(root, text=main.start(population_size_var, domain_start, domain_end, a, b, c, precision,
-                                               crossover_probability, mutation_probability, generation_number)
-                         , font=('calibre', 10, 'bold'))
+        #run the algorithm
+        result = main.start(population_size, domain_start, domain_end, a, b, c,
+                            precision, crossover_probability, mutation_probability,
+                            generation_number)
+        result_var.set(f"Maximum Value: {result}")
 
-    max_value.grid(row=29, column=0)
-    text_widget = tk.Text(root, height=40, width=150)
-    with open('Evolutie.txt', 'r') as file:
-        data = file.read()
-        text_widget.insert(tk.END, data)
-
-    text_widget.grid(row=30, column=0, columnspan=0)
-    draw_text()
-
-def default():
-    max_value = tk.Label(root, text=main.start(20,-1,2,-1,1,2,6,25,1,50)
-                         ,font=('calibre', 10, 'bold'))
-
-    max_value.grid(row=29, column=0)
-    text_widget = tk.Text(root, height=40, width=150)
-    with open('Evolutie.txt', 'r') as file:
-        data = file.read()
-        text_widget.insert(tk.END, data)
-
-    text_widget.grid(row=30, column=0, columnspan=2)
-    draw_text()
-
-def draw_text():
-    population_size_label = tk.Label(root, text='Population size', font=('calibre', 10, 'bold'))
-    domain_start_label = tk.Label(root, text='Domain start', font=('calibre', 10, 'bold'))
-    domain_end_label = tk.Label(root, text='Domain end', font=('calibre', 10, 'bold'))
-    a_label = tk.Label(root, text='A', font=('calibre', 10, 'bold'))
-    b_label = tk.Label(root, text='B', font=('calibre', 10, 'bold'))
-    c_label = tk.Label(root, text='C', font=('calibre', 10, 'bold'))
-    precision_label = tk.Label(root, text='Precision', font=('calibre', 10, 'bold'))
-    crossover_probability_label = tk.Label(root, text='Crossover', font=('calibre', 10, 'bold'))
-    mutation_probability_label = tk.Label(root, text='Mutation', font=('calibre', 10, 'bold'))
-    generation_number_label = tk.Label(root, text='Generation', font=('calibre', 10, 'bold'))
+        #extract from the folder the log
+        with open('Evolutie.txt', 'r') as file:
+            data = file.read()
+            text_area.delete(1.0, tk.END)
+            text_area.insert(tk.END, data)
 
 
-    population_size_entry = tk.Entry(root, textvariable=population_size_var)
-    domain_start_entry = tk.Entry(root, textvariable=domain_start_var)
-    domain_end_entry = tk.Entry(root, textvariable=domain_end_var)
-    a_entry = tk.Entry(root, textvariable=a_var)
-    b_entry = tk.Entry(root, textvariable=b_var)
-    c_entry = tk.Entry(root, textvariable=c_var)
-    precision_entry = tk.Entry(root, textvariable=precision_var)
-    crossover_probability_entry = tk.Entry(root, textvariable=crossover_probability_var)
-    mutation_probability_entry = tk.Entry(root, textvariable=mutation_probability_var)
-    generation_number_entry = tk.Entry(root, textvariable=generation_number_var)
+    # some styles I found online
+    input_frame = ttk.LabelFrame(root, text="Algorithm Parameters", padding=10)
+    input_frame.pack(fill="x", expand=False, padx=5, pady=5)
+
+    button_frame = ttk.Frame(root, padding=10)
+    button_frame.pack(fill="x", expand=False, padx=5, pady=5)
+
+    result_frame = ttk.LabelFrame(root, text="Results", padding=10)
+    result_frame.pack(fill="both", expand=True, padx=5, pady=5)
 
 
-    sub_btn = tk.Button(root, text='Submit', command=submit)
-    default_btn = tk.Button(root, text='Default', command=default)
+    style = ttk.Style()
+    style.configure("TLabel", font=("Arial", 10))
+    style.configure("TButton", font=("Arial", 10, "bold"))
+    style.configure("TEntry", font=("Arial", 10))
+    style.configure("TLabelframe", font=("Arial", 11, "bold"))
 
-    population_size_label.grid(row =0 , column=0, sticky=tk.W)
-    population_size_entry.grid(row=0, column=1, sticky=tk.W)
-    domain_start_label.grid(row=1, column=0, sticky=tk.W)
-    domain_start_entry.grid(row=1, column=1, sticky=tk.W)
-    domain_end_label.grid(row=2, column=0, sticky=tk.W)
-    domain_end_entry.grid(row=2, column=1, sticky=tk.W)
-    a_label.grid(row=3, column=0, sticky=tk.W)
-    a_entry.grid(row=3, column=1, sticky=tk.W)
-    b_label.grid(row=4, column=0, sticky=tk.W)
-    b_entry.grid(row=4, column=1, sticky=tk.W)
-    c_label.grid(row=5, column=0, sticky=tk.W)
-    c_entry.grid(row=5, column=1, sticky=tk.W)
-    precision_label.grid(row=6, column=0, sticky=tk.W)
-    precision_entry.grid(row=6, column=1, sticky=tk.W)
-    crossover_probability_label.grid(row=7, column=0, sticky=tk.W)
-    crossover_probability_entry.grid(row=7, column=1, sticky=tk.W)
-    mutation_probability_label.grid(row=8, column=0, sticky=tk.W)
-    mutation_probability_entry.grid(row=8, column=1, sticky=tk.W)
-    generation_number_label.grid(row=9, column=0, sticky=tk.W)
-    generation_number_entry.grid(row=9, column=1, sticky=tk.W, rowspan=2)
+    param_labels = ["Population Size:", "Domain Start:", "Domain End:",
+                    "Coefficient A:", "Coefficient B:", "Coefficient C:",
+                    "Precision:", "Crossover Probability (%):",
+                    "Mutation Probability (%):", "Number of Generations:"]
+
+    param_vars = [population_size_var, domain_start_var, domain_end_var,
+                  a_var, b_var, c_var, precision_var,
+                  crossover_probability_var, mutation_probability_var,
+                  generation_number_var]
+
+    #split the inputs in 2 columns
+    for i, (label, var) in enumerate(zip(param_labels, param_vars)):
+        row = i % 5
+        col = i // 5 * 2
+
+        ttk.Label(input_frame, text=label).grid(row=row, column=col, sticky="w", padx=5, pady=5)
+        ttk.Entry(input_frame, textvariable=var, width=10).grid(row=row, column=col + 1, padx=5, pady=5, sticky="w")
 
 
-    sub_btn.grid(row=20, column=4, sticky=tk.W, rowspan=2)
-    default_btn.grid(row=20, column=5, sticky=tk.W, rowspan=2)
+    ttk.Button(button_frame, text="Run Algorithm", command=submit, style="TButton").pack(side="left", padx=10)
 
-draw_text()
-root.mainloop()
+    #logs
+    ttk.Label(result_frame, textvariable=result_var, font=("Arial", 11, "bold")).pack(fill="x", pady=5)
+    text_area = scrolledtext.ScrolledText(result_frame, wrap=tk.WORD, height=20, font=("Consolas", 10))
+    text_area.pack(fill="both", expand=True, padx=5, pady=5)
+
+    return root
+
+
+
+app = create_gui()
+app.mainloop()
