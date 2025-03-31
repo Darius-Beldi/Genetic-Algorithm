@@ -152,7 +152,7 @@ def start(population_size,
         if generation == 0:
             print("After crossover: ", file = file_output)
             print_population(next_population)
-            print( file = file_output)
+            print(file = file_output)
             print("Mutation with the chance: " + str(mutation_probability) + " % for each chromosome", file = file_output)
 
         nex_population = mutation_for_all_chromosomes(next_population, mutation_probability, a, b, c, generation)

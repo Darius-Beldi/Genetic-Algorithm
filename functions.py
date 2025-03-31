@@ -16,8 +16,6 @@ def randomInt(a, b):
     return random.randint(a, b)
 
 def mutation(cromozom):
-
-
     cromozom = list(cromozom)
     mutation_mask = [str(randomInt(0,1)) for x in range(len(cromozom))]
     for i in range(len(cromozom)):
@@ -29,7 +27,6 @@ def mutation(cromozom):
     return "".join(cromozom)
 
 def crossover(cromozom1, cromozom2, _generation):
-
     cromozom1 = list(cromozom1)
     cromozom2 = list(cromozom2)
 
@@ -53,15 +50,11 @@ def mutation_for_all_chromosomes(_population, _mutation_probability, _a, _b, _c,
     for i in range(len(_population)):
         rand = randomInt(0,100)
         if rand <= _mutation_probability:
-
             _population[i].binary = mutation(_population[i].binary)
             _population[i].real_value = bits_to_float(_population[i].binary)
             _population[i].fitness = evaluate_fitness(_population[i].real_value, _a, _b, _c)
 
     return _population
-
-
-
 
 def bits_to_float(bits):
 
