@@ -1,224 +1,50 @@
-Chromosome 0 Float value: 1.81786 Binary value: 00111111111010001010111110100011 Fitness: 0.5132450203999999
-Chromosome 1 Float value: 1.273882 Binary value: 00111111101000110000111010010001 Fitness: 1.651106650076
-Chromosome 2 Float value: 0.103817 Binary value: 00111101110101001001111000000010 Fitness: 2.093039030511
-Chromosome 3 Float value: 0.285972 Binary value: 00111110100100100110101011101100 Fitness: 2.204192015216
-Chromosome 4 Float value: -0.211644 Binary value: 10111110010110001011100100110100 Fitness: 1.7435628172639999
-Chromosome 5 Float value: -0.174917 Binary value: 10111110001100110001110101110001 Fitness: 1.794487043111
-Chromosome 6 Float value: 1.528896 Binary value: 00111111110000111011001011011101 Fitness: 1.191373021184
-Chromosome 7 Float value: -0.838852 Binary value: 10111111010101101011111100000001 Fitness: 0.4574753220959997
-Chromosome 8 Float value: 0.65543 Binary value: 00111111001001111100101001000011 Fitness: 2.2258415151
-Chromosome 9 Float value: -0.267072 Binary value: 10111110100010001011110110101001 Fitness: 1.661600546816
-Chromosome 10 Float value: 0.267536 Binary value: 00111110100010001111101001111011 Fitness: 2.195960488704
-Chromosome 11 Float value: 0.489508 Binary value: 00111110111110101010000011001011 Fitness: 2.249889917936
-Chromosome 12 Float value: 1.6198 Binary value: 00111111110011110101010110011011 Fitness: 0.9960479600000001
-Chromosome 13 Float value: -0.942189 Binary value: 10111111011100010011001101001100 Fitness: 0.17009088827899976
-Chromosome 14 Float value: 0.892718 Binary value: 00111111011001001000100100101011 Fitness: 2.095772572476
-Chromosome 15 Float value: -0.853764 Binary value: 10111111010110101001000001000111 Fitness: 0.41732303230400003
-Chromosome 16 Float value: -0.135525 Binary value: 10111110000010101100011100010001 Fitness: 1.846107974375
-Chromosome 17 Float value: -0.465867 Binary value: 10111110111011101000011000011111 Fitness: 1.317100938311
-Chromosome 18 Float value: 1.746091 Binary value: 00111111110111110111111111101001 Fitness: 0.6972572197189997
-Chromosome 19 Float value: 1.412936 Binary value: 00111111101101001101101100010110 Fitness: 1.416547859904
-Selection probabilities for the first generation: 
-Chromosome: 1 with probability: 0.017736009162894546
-Chromosome: 2 with probability: 0.05705665230193836
-Chromosome: 3 with probability: 0.07232833821652607
-Chromosome: 4 with probability: 0.07616940881020573
-Chromosome: 5 with probability: 0.0602516242222397
-Chromosome: 6 with probability: 0.062011392949331834
-Chromosome: 7 with probability: 0.04116981554672827
-Chromosome: 8 with probability: 0.015808797322902968
-Chromosome: 9 with probability: 0.07691754218325908
-Chromosome: 10 with probability: 0.05741928582264949
-Chromosome: 11 with probability: 0.07588495514024574
-Chromosome: 12 with probability: 0.07774857351546738
-Chromosome: 13 with probability: 0.03442004314328151
-Chromosome: 14 with probability: 0.00587776487473779
-Chromosome: 15 with probability: 0.07242280016629932
-Chromosome: 16 with probability: 0.014421270213322734
-Chromosome: 17 with probability: 0.06379523745537674
-Chromosome: 18 with probability: 0.045514546428789604
-Chromosome: 19 with probability: 0.02409484738535339
-Chromosome: 20 with probability: 0.04895109513844975
-Possible selection intervals: 
-0 
-0.017736009162894546 0.0747926614648329 0.14712099968135897 
-0.2232904084915647 0.2835420327138044 0.34555342566313624 
-0.3867232412098645 0.4025320385327675 0.47944958071602656 
-0.536868866538676 0.6127538216789218 0.6905023951943892 
-0.7249224383376707 0.7308002032124085 0.8032230033787078 
-0.8176442735920305 0.8814395110474073 0.9269540574761969 
-0.9510489048615502 1.0 u = 0.33121022947509915 chromozone: 6
-u = 0.6565275892597009 chromozone: 12
-u = 0.8165551822587381 chromozone: 16
-u = 0.23896291251885216 chromozone: 5
-u = 0.3323708060976668 chromozone: 6
-u = 0.9906380506598476 chromozone: 19
-u = 0.6944018994225336 chromozone: 13
-u = 0.7548386150248921 chromozone: 15
-u = 0.13908104304647573 chromozone: 3
-u = 0.8663545380976818 chromozone: 17
-u = 0.6908963950766723 chromozone: 13
-u = 0.7664227435064825 chromozone: 15
-u = 0.36410541967141863 chromozone: 7
-u = 0.8862442262632808 chromozone: 18
-u = 0.015391522839377059 chromozone: 1
-u = 0.6715062182439789 chromozone: 12
-u = 0.040091418653265376 chromozone: 2
-u = 0.32590954794552385 chromozone: 6
-u = 0.7958533619081692 chromozone: 15
-u = 0.8691658229504848 chromozone: 17
-After selection: 
-Chromosome 0 Float value: -0.174917 Binary value: 10111110001100110001110101110001 Fitness: 1.794487043111
-Chromosome 1 Float value: 0.489508 Binary value: 00111110111110101010000011001011 Fitness: 2.249889917936
-Chromosome 2 Float value: -0.853764 Binary value: 10111111010110101001000001000111 Fitness: 0.41732303230400003
-Chromosome 3 Float value: -0.211644 Binary value: 10111110010110001011100100110100 Fitness: 1.7435628172639999
-Chromosome 4 Float value: -0.174917 Binary value: 10111110001100110001110101110001 Fitness: 1.794487043111
-Chromosome 5 Float value: 1.746091 Binary value: 00111111110111110111111111101001 Fitness: 0.6972572197189997
-Chromosome 6 Float value: 1.6198 Binary value: 00111111110011110101010110011011 Fitness: 0.9960479600000001
-Chromosome 7 Float value: 0.892718 Binary value: 00111111011001001000100100101011 Fitness: 2.095772572476
-Chromosome 8 Float value: 0.103817 Binary value: 00111101110101001001111000000010 Fitness: 2.093039030511
-Chromosome 9 Float value: -0.135525 Binary value: 10111110000010101100011100010001 Fitness: 1.846107974375
-Chromosome 10 Float value: 1.6198 Binary value: 00111111110011110101010110011011 Fitness: 0.9960479600000001
-Chromosome 11 Float value: 0.892718 Binary value: 00111111011001001000100100101011 Fitness: 2.095772572476
-Chromosome 12 Float value: 1.528896 Binary value: 00111111110000111011001011011101 Fitness: 1.191373021184
-Chromosome 13 Float value: -0.465867 Binary value: 10111110111011101000011000011111 Fitness: 1.317100938311
-Chromosome 14 Float value: 1.81786 Binary value: 00111111111010001010111110100011 Fitness: 0.5132450203999999
-Chromosome 15 Float value: 0.489508 Binary value: 00111110111110101010000011001011 Fitness: 2.249889917936
-Chromosome 16 Float value: 1.273882 Binary value: 00111111101000110000111010010001 Fitness: 1.651106650076
-Chromosome 17 Float value: -0.174917 Binary value: 10111110001100110001110101110001 Fitness: 1.794487043111
-Chromosome 18 Float value: 0.892718 Binary value: 00111111011001001000100100101011 Fitness: 2.095772572476
-Chromosome 19 Float value: -0.135525 Binary value: 10111110000010101100011100010001 Fitness: 1.846107974375
-Chromosome 0 u: 51.797187352735286 binary: 10111110001100110001110101110001 
-Chromosome 1 u: 72.69460669386967 binary: 00111110111110101010000011001011 
-Chromosome 2 u: 4.083308219470827 binary: 10111111010110101001000001000111 Selected with the probability: 4.083308219470827
-Chromosome 3 u: 22.640521316316175 binary: 10111110010110001011100100110100 Selected with the probability: 22.640521316316175
-Chromosome 4 u: 63.585904952846576 binary: 10111110001100110001110101110001 
-Chromosome 5 u: 69.44248685729906 binary: 00111111110111110111111111101001 
-Chromosome 6 u: 9.677187188563941 binary: 00111111110011110101010110011011 Selected with the probability: 9.677187188563941
-Chromosome 7 u: 78.53999548832181 binary: 00111111011001001000100100101011 
-Chromosome 8 u: 80.88852264907774 binary: 00111101110101001001111000000010 
-Chromosome 9 u: 77.32155469258662 binary: 10111110000010101100011100010001 
-Chromosome 10 u: 8.975864660427257 binary: 00111111110011110101010110011011 Selected with the probability: 8.975864660427257
-Chromosome 11 u: 44.97429081384716 binary: 00111111011001001000100100101011 
-Chromosome 12 u: 43.48544336201097 binary: 00111111110000111011001011011101 
-Chromosome 13 u: 6.921614345151738 binary: 10111110111011101000011000011111 Selected with the probability: 6.921614345151738
-Chromosome 14 u: 74.65302606776318 binary: 00111111111010001010111110100011 
-Chromosome 15 u: 19.879201649241416 binary: 00111110111110101010000011001011 Selected with the probability: 19.879201649241416
-Chromosome 16 u: 57.851161051462874 binary: 00111111101000110000111010010001 
-Chromosome 17 u: 56.2542068534811 binary: 10111110001100110001110101110001 
-Chromosome 18 u: 28.47757350117415 binary: 00111111011001001000100100101011 
-Chromosome 19 u: 82.90288829435933 binary: 10111110000010101100011100010001 
-Chromosomes: 
-1) 10111111010110101001000001000111
-2) 10111110010110001011100100110100
-The slicing is made after the 23 bit
-After crossover: 
-Chromosome 1 Float value: -0.21164046227931976 Binary value: 10111110010110001011100001000111 Fitness: 1.743567852446876
-Chromosome 2 Float value: -0.8537781238555908 Binary value: 10111111010110101001000100110100 Fitness: 0.4172847913700366
-Chromosomes: 
-1) 00111111110011110101010110011011
-2) 00111111110011110101010110011011
-The slicing is made after the 31 bit
-After crossover: 
-Chromosome 1 Float value: 1.6197999715805054 Binary value: 00111111110011110101010110011011 Fitness: 0.9960480236482994
-Chromosome 2 Float value: 1.6197999715805054 Binary value: 00111111110011110101010110011011 Fitness: 0.9960480236482994
-Chromosomes: 
-1) 10111110111011101000011000011111
-2) 00111110111110101010000011001011
-The slicing is made after the 1 bit
-After crossover: 
-Chromosome 1 Float value: 0.4658670127391815 Binary value: 00111110111011101000011000011111 Fitness: 2.248834939180653
-Chromosome 2 Float value: -0.4895080029964447 Binary value: 10111110111110101010000011001011 Fitness: 1.270873912005988
-After crossover: 
-Chromosome 0 Float value: -0.174917 Binary value: 10111110001100110001110101110001 Fitness: 1.794487043111
-Chromosome 1 Float value: -0.4895080029964447 Binary value: 10111110111110101010000011001011 Fitness: 1.270873912005988
-Chromosome 2 Float value: -0.21164046227931976 Binary value: 10111110010110001011100001000111 Fitness: 1.743567852446876
-Chromosome 3 Float value: -0.8537781238555908 Binary value: 10111111010110101001000100110100 Fitness: 0.4172847913700366
-Chromosome 4 Float value: -0.174917 Binary value: 10111110001100110001110101110001 Fitness: 1.794487043111
-Chromosome 5 Float value: 1.746091 Binary value: 00111111110111110111111111101001 Fitness: 0.6972572197189997
-Chromosome 6 Float value: 1.6197999715805054 Binary value: 00111111110011110101010110011011 Fitness: 0.9960480236482994
-Chromosome 7 Float value: 0.892718 Binary value: 00111111011001001000100100101011 Fitness: 2.095772572476
-Chromosome 8 Float value: 0.103817 Binary value: 00111101110101001001111000000010 Fitness: 2.093039030511
-Chromosome 9 Float value: -0.135525 Binary value: 10111110000010101100011100010001 Fitness: 1.846107974375
-Chromosome 10 Float value: 1.6197999715805054 Binary value: 00111111110011110101010110011011 Fitness: 0.9960480236482994
-Chromosome 11 Float value: 0.892718 Binary value: 00111111011001001000100100101011 Fitness: 2.095772572476
-Chromosome 12 Float value: 1.528896 Binary value: 00111111110000111011001011011101 Fitness: 1.191373021184
-Chromosome 13 Float value: 0.4658670127391815 Binary value: 00111110111011101000011000011111 Fitness: 2.248834939180653
-Chromosome 14 Float value: 1.81786 Binary value: 00111111111010001010111110100011 Fitness: 0.5132450203999999
-Chromosome 15 Float value: -0.4895080029964447 Binary value: 10111110111110101010000011001011 Fitness: 1.270873912005988
-Chromosome 16 Float value: 1.273882 Binary value: 00111111101000110000111010010001 Fitness: 1.651106650076
-Chromosome 17 Float value: -0.174917 Binary value: 10111110001100110001110101110001 Fitness: 1.794487043111
-Chromosome 18 Float value: 0.892718 Binary value: 00111111011001001000100100101011 Fitness: 2.095772572476
-Chromosome 19 Float value: -0.135525 Binary value: 10111110000010101100011100010001 Fitness: 1.846107974375
-
-Mutation with the chance: 1 % for each chromosome
-Chromosome 0 Float value: -0.174917 Binary value: 10111110001100110001110101110001 Fitness: 1.794487043111
-Chromosome 1 Float value: -0.4895080029964447 Binary value: 10111110111110101010000011001011 Fitness: 1.270873912005988
-Chromosome 2 Float value: -0.21164046227931976 Binary value: 10111110010110001011100001000111 Fitness: 1.743567852446876
-Chromosome 3 Float value: -0.8537781238555908 Binary value: 10111111010110101001000100110100 Fitness: 0.4172847913700366
-Chromosome 4 Float value: -0.174917 Binary value: 10111110001100110001110101110001 Fitness: 1.794487043111
-Chromosome 5 Float value: 1.746091 Binary value: 00111111110111110111111111101001 Fitness: 0.6972572197189997
-Chromosome 6 Float value: 1.6197999715805054 Binary value: 00111111110011110101010110011011 Fitness: 0.9960480236482994
-Chromosome 7 Float value: 0.892718 Binary value: 00111111011001001000100100101011 Fitness: 2.095772572476
-Chromosome 8 Float value: 0.103817 Binary value: 00111101110101001001111000000010 Fitness: 2.093039030511
-Chromosome 9 Float value: -0.135525 Binary value: 10111110000010101100011100010001 Fitness: 1.846107974375
-Chromosome 10 Float value: 1.6197999715805054 Binary value: 00111111110011110101010110011011 Fitness: 0.9960480236482994
-Chromosome 11 Float value: 0.892718 Binary value: 00111111011001001000100100101011 Fitness: 2.095772572476
-Chromosome 12 Float value: 1.528896 Binary value: 00111111110000111011001011011101 Fitness: 1.191373021184
-Chromosome 13 Float value: 0.4658670127391815 Binary value: 00111110111011101000011000011111 Fitness: 2.248834939180653
-Chromosome 14 Float value: 1.81786 Binary value: 00111111111010001010111110100011 Fitness: 0.5132450203999999
-Chromosome 15 Float value: -0.4895080029964447 Binary value: 10111110111110101010000011001011 Fitness: 1.270873912005988
-Chromosome 16 Float value: 1.273882 Binary value: 00111111101000110000111010010001 Fitness: 1.651106650076
-Chromosome 17 Float value: -0.174917 Binary value: 10111110001100110001110101110001 Fitness: 1.794487043111
-Chromosome 18 Float value: 0.892718 Binary value: 00111111011001001000100100101011 Fitness: 2.095772572476
-Chromosome 19 Float value: -0.135525 Binary value: 10111110000010101100011100010001 Fitness: 1.846107974375
-Average fitness for generation: 0 is: 1.522627 and the max fitness is: 2.249889917936
-Average fitness for generation: 1 is: 1.382644 and the max fitness is: 2.248834939180653
-Average fitness for generation: 2 is: 1.747692 and the max fitness is: 2.248834939180653
-Average fitness for generation: 3 is: 1.948827 and the max fitness is: 2.248834939180653
-Average fitness for generation: 4 is: 1.712212 and the max fitness is: 2.248834939180653
-Average fitness for generation: 5 is: 1.809995 and the max fitness is: 2.2488487892330857
-Average fitness for generation: 6 is: 1.677922 and the max fitness is: 2.2498856065522537
-Average fitness for generation: 7 is: 1.731323 and the max fitness is: 2.2498856065522537
-Average fitness for generation: 8 is: 1.834267 and the max fitness is: 2.2498856065522537
-Average fitness for generation: 9 is: 1.509354 and the max fitness is: 2.2498856065522537
-Average fitness for generation: 10 is: -1.0890603223528555e+47 and the max fitness is: 2.2488487892330857
-Average fitness for generation: 11 is: -2.178120644705711e+48 and the max fitness is: 2.2488487892330857
-Average fitness for generation: 12 is: -2.178120644705711e+48 and the max fitness is: 2.2488487892330857
-Average fitness for generation: 13 is: -2.178120644705711e+48 and the max fitness is: 2.2488487892330857
-Average fitness for generation: 14 is: -2.178120644705711e+48 and the max fitness is: 2.2488487892330857
-Average fitness for generation: 15 is: -2.178120644705711e+48 and the max fitness is: 2.2488487892330857
-Average fitness for generation: 16 is: -2.178120644705711e+48 and the max fitness is: 2.2488487892330857
-Average fitness for generation: 17 is: -2.178120644705711e+48 and the max fitness is: 2.2488487892330857
-Average fitness for generation: 18 is: -2.178120644705711e+48 and the max fitness is: 2.2488487892330857
-Average fitness for generation: 19 is: -2.178120644705711e+48 and the max fitness is: 2.2488487892330857
-Average fitness for generation: 20 is: -2.178120644705711e+48 and the max fitness is: 2.2488487892330857
-Average fitness for generation: 21 is: -2.178120644705711e+48 and the max fitness is: 2.2488487892330857
-Average fitness for generation: 22 is: -2.178120644705711e+48 and the max fitness is: 2.2488487892330857
-Average fitness for generation: 23 is: 2.0 and the max fitness is: 2.2488487892330857
-Average fitness for generation: 24 is: -1.3819784805048835e+65 and the max fitness is: 2.2488487892330857
-Average fitness for generation: 25 is: -6.9098924025244175e+65 and the max fitness is: 2.2488487892330857
-Average fitness for generation: 26 is: -6.9098924025244175e+65 and the max fitness is: 2.2488487892330857
-Average fitness for generation: 27 is: 2.0 and the max fitness is: 2.2488487892330857
-Average fitness for generation: 28 is: -6.299168284550481e+72 and the max fitness is: 2.2488487892330857
-Average fitness for generation: 29 is: -6.29916828455048e+73 and the max fitness is: 2.2488487892330857
-Average fitness for generation: 30 is: -6.29916828455048e+73 and the max fitness is: 2.2488487892330857
-Average fitness for generation: 31 is: -4.232850290541737e+32 and the max fitness is: 2.2488487892330857
-Average fitness for generation: 32 is: -15280109004481.75 and the max fitness is: 2.2488487892330857
-Average fitness for generation: 33 is: -15280109004481.75 and the max fitness is: 2.2488487892330857
-Average fitness for generation: 34 is: -15280109004481.75 and the max fitness is: 2.2488487892330857
-Average fitness for generation: 35 is: -15280109004481.75 and the max fitness is: 2.2488487892330857
-Average fitness for generation: 36 is: -15280109004481.75 and the max fitness is: 2.2488487892330857
-Average fitness for generation: 37 is: -15280109004481.75 and the max fitness is: 2.2488487892330857
-Average fitness for generation: 38 is: -15280109004481.75 and the max fitness is: 2.2488487892330857
-Average fitness for generation: 39 is: -15280109004481.75 and the max fitness is: 2.2488487892330857
-Average fitness for generation: 40 is: -15280109004481.75 and the max fitness is: 2.2488487892330857
-Average fitness for generation: 41 is: 2.000001 and the max fitness is: 2.2488487892330857
-Average fitness for generation: 42 is: 1.885746 and the max fitness is: 2.2488487892330857
-Average fitness for generation: 43 is: 1.792848 and the max fitness is: 2.2488487953001446
-Average fitness for generation: 44 is: 1.618962 and the max fitness is: 2.2488487953001446
-Average fitness for generation: 45 is: -5.12890970153155e+44 and the max fitness is: 2.2488487953001446
-Average fitness for generation: 46 is: -6.448618686253417e+60 and the max fitness is: 2.248848781143649
-Average fitness for generation: 47 is: -6.448618686253417e+60 and the max fitness is: 2.248848781143649
-Average fitness for generation: 48 is: -6.448618686253417e+60 and the max fitness is: 2.248848781143649
-Average fitness for generation: 49 is: -6.448618686253417e+60 and the max fitness is: 2.248848781143649
+Average fitness for generation: 0 is: 1.610309 and the max fitness is: 2.249550771975
+Average fitness for generation: 1 is: 1.652377 and the max fitness is: 2.2496798763359998
+Average fitness for generation: 2 is: 1.795805 and the max fitness is: 2.2496798763359998
+Average fitness for generation: 3 is: 1.886413 and the max fitness is: 2.249679876226523
+Average fitness for generation: 4 is: 1.66996 and the max fitness is: 2.249679876226523
+Average fitness for generation: 5 is: 1.612457 and the max fitness is: 2.249679876226523
+Average fitness for generation: 6 is: 2.004194 and the max fitness is: 2.249679876226523
+Average fitness for generation: 7 is: 1.978226 and the max fitness is: 2.249679876226523
+Average fitness for generation: 8 is: 1.853893 and the max fitness is: 2.249679876226523
+Average fitness for generation: 9 is: 1.747231 and the max fitness is: 2.249679876226523
+Average fitness for generation: 10 is: 1.875102 and the max fitness is: 2.249679876226523
+Average fitness for generation: 11 is: 1.994915 and the max fitness is: 2.249679876226523
+Average fitness for generation: 12 is: 1.823481 and the max fitness is: 2.249679876226523
+Average fitness for generation: 13 is: 1.876897 and the max fitness is: 2.249679876226523
+Average fitness for generation: 14 is: 1.462382 and the max fitness is: 2.249679876226523
+Average fitness for generation: 15 is: 1.76889 and the max fitness is: 2.249679876226523
+Average fitness for generation: 16 is: 1.834407 and the max fitness is: 2.2448906096
+Average fitness for generation: 17 is: 1.786004 and the max fitness is: 2.249891340224
+Average fitness for generation: 18 is: 2.008 and the max fitness is: 2.249891340224
+Average fitness for generation: 19 is: 1.887418 and the max fitness is: 2.249891340224
+Average fitness for generation: 20 is: 1.622327 and the max fitness is: 2.249932677975
+Average fitness for generation: 21 is: 1.815187 and the max fitness is: 2.249932677975
+Average fitness for generation: 22 is: 1.970729 and the max fitness is: 2.249932677975
+Average fitness for generation: 23 is: 1.928295 and the max fitness is: 2.249932677975
+Average fitness for generation: 24 is: 1.790692 and the max fitness is: 2.249932677975
+Average fitness for generation: 25 is: 2.003548 and the max fitness is: 2.249418129116
+Average fitness for generation: 26 is: 1.892803 and the max fitness is: 2.249555591439
+Average fitness for generation: 27 is: 1.870434 and the max fitness is: 2.249555591439
+Average fitness for generation: 28 is: 1.95752 and the max fitness is: 2.249521965504
+Average fitness for generation: 29 is: 1.972715 and the max fitness is: 2.249521965635946
+Average fitness for generation: 30 is: 1.843552 and the max fitness is: 2.249521965635946
+Average fitness for generation: 31 is: 1.435443 and the max fitness is: 2.249521965635946
+Average fitness for generation: 32 is: 1.807867 and the max fitness is: 2.249521965635946
+Average fitness for generation: 33 is: 1.535922 and the max fitness is: 2.248868081264
+Average fitness for generation: 34 is: 1.707326 and the max fitness is: 2.2406181404
+Average fitness for generation: 35 is: 1.815849 and the max fitness is: 2.2406181404
+Average fitness for generation: 36 is: 1.715213 and the max fitness is: 2.249708068604
+Average fitness for generation: 37 is: 1.824461 and the max fitness is: 2.249769355031
+Average fitness for generation: 38 is: 1.711717 and the max fitness is: 2.243201832599
+Average fitness for generation: 39 is: 1.878844 and the max fitness is: 2.243201834922715
+Average fitness for generation: 40 is: 1.135574 and the max fitness is: 2.243201834922715
+Average fitness for generation: 41 is: 1.597893 and the max fitness is: 2.174509140464
+Average fitness for generation: 42 is: 1.541071 and the max fitness is: 2.2384286951
+Average fitness for generation: 43 is: 1.979654 and the max fitness is: 2.247447527516
+Average fitness for generation: 44 is: 1.719132 and the max fitness is: 2.247447527516
+Average fitness for generation: 45 is: 1.839727 and the max fitness is: 2.2495983984
+Average fitness for generation: 46 is: 1.821361 and the max fitness is: 2.2495983984
+Average fitness for generation: 47 is: 1.723198 and the max fitness is: 2.2495983984
+Average fitness for generation: 48 is: 1.815955 and the max fitness is: 2.249650048151
+Average fitness for generation: 49 is: 1.66654 and the max fitness is: 2.249650048151
