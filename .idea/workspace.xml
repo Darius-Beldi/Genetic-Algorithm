@@ -4,11 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="37da41e3-93c3-4936-82a3-d4180549c3d2" name="Changes" comment="Updated the gui">
-      <change afterPath="$PROJECT_DIR$/debug.py" afterDir="false" />
+    <list default="true" id="37da41e3-93c3-4936-82a3-d4180549c3d2" name="Changes" comment="fixed the population generator">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Evolutie.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Evolutie.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/functions.py" beforeDir="false" afterPath="$PROJECT_DIR$/functions.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gui.py" beforeDir="false" afterPath="$PROJECT_DIR$/gui.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -102,7 +101,7 @@
       <workItem from="1743451093394" duration="425000" />
       <workItem from="1743455650813" duration="591000" />
       <workItem from="1743462724575" duration="1444000" />
-      <workItem from="1743511277505" duration="3332000" />
+      <workItem from="1743511277505" duration="4777000" />
     </task>
     <task id="LOCAL-00001" summary="Finished the algorithm">
       <option name="closed" value="true" />
@@ -176,7 +175,15 @@
       <option name="project" value="LOCAL" />
       <updated>1743464126625</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="fixed the population generator">
+      <option name="closed" value="true" />
+      <created>1743514838835</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1743514838835</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -197,13 +204,14 @@
     <MESSAGE value="Finished the algorithm" />
     <MESSAGE value="Created a simple gui for easier input" />
     <MESSAGE value="Updated the gui" />
-    <option name="LAST_COMMIT_MESSAGE" value="Updated the gui" />
+    <MESSAGE value="fixed the population generator" />
+    <option name="LAST_COMMIT_MESSAGE" value="fixed the population generator" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/AlgoritmiGeneticiPy$functions.coverage" NAME="functions Coverage Results" MODIFIED="1743514378582" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/AlgoritmiGeneticiPy$main.coverage" NAME="main Coverage Results" MODIFIED="1743514577335" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/AlgoritmiGeneticiPy$main.coverage" NAME="main Coverage Results" MODIFIED="1743515280640" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/AlgoritmiGeneticiPy$debug.coverage" NAME="debug Coverage Results" MODIFIED="1743511585636" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/AlgoritmiGeneticiPy$gui.coverage" NAME="gui Coverage Results" MODIFIED="1743514770134" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/AlgoritmiGeneticiPy$gui.coverage" NAME="gui Coverage Results" MODIFIED="1743516279705" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/AlgoritmiGeneticiPy$plot.coverage" NAME="plot Coverage Results" MODIFIED="1743456219148" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>

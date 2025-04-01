@@ -37,11 +37,27 @@ def create_gui():
         generation_number = generation_number_var.get()
 
         #run the algorithm
-        result = main.start(population_size, domain_start, domain_end, a, b, c,
+        result, real_value2 = main.start(population_size, domain_start, domain_end, a, b, c,
                             precision, crossover_probability, mutation_probability,
                             generation_number)
         result_var.set(f"Maximum Value: {result}")
 
+        import numpy as np
+        from matplotlib import pyplot as plt
+
+        def PolyCoefficients(x, coeffs):
+            o = len(coeffs)
+            print(f'# This is a polynomial of order {o}.')
+            y = 0
+            for i in range(o):
+                y += coeffs[i] * x ** i
+            return y
+
+        x = np.linspace(domain_start, domain_end, 100)
+        coeffs = [c, b, a]
+        plt.plot(x, PolyCoefficients(x, coeffs))
+        plt.plot(float(real_value2), PolyCoefficients(float(real_value2), coeffs), marker="x")
+        plt.show()
         #extract from the folder the log
         with open('Evolutie.txt', 'r') as file:
             data = file.read()

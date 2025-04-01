@@ -13,12 +13,13 @@ def start(population_size,
     generation_number):
 
 
+
     output_file = "Evolutie.txt"
     file_output = open(output_file, "w")
 
     file(file_output)
 
-    result = 1
+    result = 0
 
     elitist_chromosome = Chromosome(0, 0 ,0)
 
@@ -144,6 +145,10 @@ def start(population_size,
         print("Average fitness for generation: " + str(generation)
               +" is: " + str(round(sum([chromosometemp.fitness for chromosometemp in next_population]) / len(next_population), precision))
               + " and the max fitness is: " + str(max_fitness), file = file_output)
-        result = max_fitness
 
-    return "The max value of the given function is: " + str(round(result,precision))
+        max_fitness2 = max([chromosome.fitness for chromosome in next_population])
+        if max_fitness2 > result:
+            result = max_fitness2
+            index_max_fitness2 = [chromosome.fitness for chromosome in next_population].index(result)
+            real_value2 = next_population[index_max_fitness2].real_value
+    return str(round(result,precision)), str(round(real_value2,precision))
